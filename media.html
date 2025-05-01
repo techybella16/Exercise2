@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gbemisola Digital Story.</title>
+  </head>
+  <body>
+    <h1>My Digital Story.</h1>
+    <p>My name is Gbemisola and this is my first media task.</p>
+    <!-- image in html -->
+    <div class="gallery">
+      <img
+        src="./assets/images/image-4.jpg"
+        srcset="
+                ./assets/images/image-4.jpg 480w 
+                ./assets/images/image-4.jpg 768w 
+                ./assets/images/image-4.jpg 1200ww "
+        sizes="(max-width: 480px) 480px,
+                           (max-width: 768px) 768px,
+                           1200px"
+        alt="image-4"
+        width="auto"
+      />
+    </div>
+    <!--embed audio in html -->
+    <audio
+      src="./assets/Audio/sound-of-pouring-liquid-into-a-glass-hd-263175.mp3"
+      controls
+    ></audio>
+    <!--play video in html -->
+    <video height="360" width="640" controls>
+      <source
+        src="./assets/video/12715089_3840_2160_30fps.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </body>
+</html>
