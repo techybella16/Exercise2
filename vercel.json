@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "media.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/media.html"
+    }
+  ]
+}
